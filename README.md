@@ -1,5 +1,26 @@
-# 7_mistery_fix
+7_mistery_fix
+===================
 
-Скрипт tests.py содержит в себе набор тестов для функции поиска корней квадратного уравнения (get_roots()) из quadratic_equation.py.  
+The script quadratic_equation.py contains the function for getting roots of quadratic equation.
 
-Запуск тестов для функции get_roots() из quadratic_equation.py производится следующим образом: 1) Открыть терминал. 2) Перейти в папку, содержащую скрипт test.py. 3) Выполнить команду python test.py. 
+How to run
+---------- 
+
+Clone this repository. Copy quadratic_equation.py to your project.
+
+Import get_roots() to your project:
+
+```
+from quadratic_equation import get_roots
+```
+
+**The repository also has tests** for function get_roots(). 
+
+To run tests clone this repository. Then go to the repository directory.
+
+Run tests.py:
+
+```
+python3 tests.py
+```
+
